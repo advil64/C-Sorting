@@ -1,0 +1,26 @@
+﻿1. Our most basic test file, “lmf.txt” took the chorus of the famous song “Light My Fire” and we wanted to sort it in alphabetical order.  The text file was “come, on, baby, light, my, fire”.  This was just a simple test case to check to see if both insertion and quick sort worked and it did.  The output was “baby, come, fire, light, my, on” all on a new line.
+The original file was: come, on, baby, light, my, fire
+
+
+2. Another test file that was tested was words of the alphabet, in alphabetical order.  This pretty much meant that we wanted to see if the output would still be the same as the file and it was.  
+The original file was: [alpha,beta,cali,delta,elephant,fox,giraffe,hell,ice,jack,kangaroo,ligma,monty,night,orange,python,quiver,randy,savan,tyrant,umbrella,variety,water,xavier,yodel,zoo]
+
+
+3. The next test file that we tested were words in descending order.  This would be the worst case for insertion sort actually so we just wanted to see if it worked and it does.
+The original file was:  The file for ascending order, but put in reverse order
+
+
+4. Another test case we did was take a random youtube comment, added commas to it, and changed its capital letters to lowercase letters to see if it would sort and it did. This was just done to test random words and make sure that even with no patterns the program was able to sort the file correctly.
+
+
+5. For the rest of the test cases, we used a CSV generator to generate thousands of words and numbers randomly arranged to figure out how our program would react to large files which were about 1MB large and consisted of hundreds of thousands of letters. The program was successful in sorting these files.
+The original file: This would be way too long to put onto this text file, it was a lot of values though
+
+
+6. We also tried the random numbers listed below to initially see how our quicksort would react, and it worked. [38, 33, 97, 9, 83, 67, 32, 34, 24, 60]
+
+
+7. We also listed the numbers from -100 to 100 backwards and our program was able to sort it correctly, including the negative numbers. We did this to see how the program would handle sorting negative numbers and if it would realize that negative numbers were less than positive numbers.
+
+
+8. We used files with a lot of degenerate values such as dashes and forward slashes just to see how our code reacts to foreign objects that are not meant to be in the text file. Our code was able to ignore any bad values and was able to understand that two consecutive commas means an empty string or a zero based on what we are working with.
